@@ -1,0 +1,77 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.navbar{
+
+    height: 60px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nos{
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .nos {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  .screen{
+    height: 10vmin;
+    width: 60vmin;
+    background-color: antiquewhite;
+    border: 1px solid black;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .buttons{
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+    height: 70vmin;
+    width: 60vmin;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    
+    border-bottom-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+}
+.btn{
+    height: 12vmin;
+    width: 12vmin;
+    border-radius: 1.5rem;
+    font-size: 2rem;
+}
+.btn:hover  {
+    transform: scale(1.05);
+  }
+
+.foot{
+  height: 5.5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
